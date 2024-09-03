@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+    />
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="links">
+            <a href="#">LINK 1</a>
+            <a href="#">LINK 2</a>
+            <a href="#">LINK 3</a>
+            <a href="#">LINK 4</a>
+            <a href="#">LINK 5</a>
+        </div>
+        <div class="contact-info">
+            <span>+00 (123) 456 7890 | support@skincarehaven.com</span>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <img src="logo.png" alt="Logo" style="width:400px;">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PAGE</a></li>
+                <li><a href="#">DROPDOWN</a></li>
+                <li><a href="#">LINK TEXT</a></li>
+                <li><a href="#">LINK TEXT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Featured Content Section -->
+        <section class="featured-content">
+            <div class="card">
+                <h3>Quisque Vehicula Urna Amet</h3>
+                <p>Ullamcorper mauris sit amet sed eget ultricies sem.</p>
+                <a href="#" class="read-more">Read More »</a>
+            </div>
+            <div class="card">
+                <h3>Aliquam Purus Urna Porta Faucibus</h3>
+                <p>Proin quis lacus egestas adipisc cing ornare.</p>
+                <a href="#" class="read-more">Read More »</a>
+            </div>
+            <div class="card">
+                <h3>Proin Ultricies Dui Leo Egestas Augue</h3>
+                <p>Donec luctus convallis rhoncus.</p>
+                <a href="#" class="read-more">Read More »</a>
+            </div>
+        </section>
+
+        <!-- Additional Content Section -->
+        <section class="add-con">
+            <!-- Left Content -->
+            <div class="left-content">
+                <h3>Carpe Diem: Seize the Day</h3>
+                <div class="large-card"></div>
+                <p>
+                    "We don't read and write poetry because it's cute. We read and write poetry because we are members of the human race. 
+                    And the human race is filled with passion." - <em>Dead Poets Society</em>
+                </p>
+                <p>
+                    The iconic words of Mr. Keating continue to inspire generations. <em>Dead Poets Society</em> isn't just a film; it's a call to embrace 
+                    the beauty and impermanence of life. It reminds us to seek out our own voice, to seize the day, and to live deliberately.
+                </p>
+                <a href="#" class="read-more">Read More »</a>
+            </div>
+
+            <!-- Right Content -->
+            <div class="right-content">
+                <h3>Etiam Eros Nulla Posuere</h3>
+                <div class="mini-card">
+                    <h4>Phasellus Massa Felis In</h4>
+                    <p><span class="small-letter">By A Name | Friday, 6 April 2024</span></p>
+                    <p>I stand upon my desk to remind myself that we must constantly look at things in a different way.</p>
+                    <a href="#" class="read-more">Read more »</a>
+                </div>
+                <div class="mini-card">
+                    <h4>Phasellus Massa Felis In</h4>
+                    <p><span class="small-letter">By A Name | Friday, 6 April 2024</span></p>
+                    <p>Now we all have a great need for acceptance. But you must trust that your beliefs are unique, your own.</p>
+                    <a href="#" class="read-more">Read more »</a>
+                </div>
+                <div class="mini-card">
+                    <h4>Phasellus Massa Felis In</h4>
+                    <p><span class="small-letter">By A Name | Friday, 6 April 2024</span></p>
+                    <p>And medicine, law, business, engineering, these are noble pursuits and necessary to sustain life. But poetry, beauty, romance, love, these are what we stay alive for.</p>
+                    <a href="#" class="read-more">Read more »</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom Content Section -->
+        <section class="bottom-content">
+            <div class="title">
+                <h3>DONEC FACILIS VOLUTPAT LIGULA NEC EGESTAS</h3>
+                <p class="small-letter">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequuntur sit 
+                    voluptas natus numquam dolore doloribus voluptatem expedita animi libero fugiat atque.
+                </p>
+            </div>
+            <div class="rect-cards">
+                <div class="rect">
+                    <h3>QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS</h3>
+                    <p>Some lorem ipsum content goes here. I need to somehow fill this space.</p>
+                    <a href="#" class="read-more">READ MORE »</a>
+                </div>
+                <div class="rect">
+                    <h3>QUISQUE VEHICULA URNA SIT AMET PULVINAR DAPIBUS</h3>
+                    <p>Some lorem ipsum content goes here. I need to somehow fill this space.</p>
+                    <a href="#" class="read-more">READ MORE »</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="foot">
+        <!-- Footer Left -->
+        <div class="foot-left">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias unde consectetur omnis, 
+                <br>fuga voluptas saepe exercitationem hic ipsum iusto fugiat ad eum.
+                <br>Nostrum omnis, eveniet sit voluptates voluptas minima ipsum.
+            </p>
+            <p>Street Name & Number, Town, Postcode/Zip</p>
+            <p>+00 (123) 456 7890</p>
+            <p>info@gmail.com</p>
+        </div>
+
+        <!-- Footer Middle -->
+        <div class="foot-mid">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer Right -->
+        <div class="foot-right">
+            <h3>KEEP IN TOUCH</h3>
+            <form action="#" method="post">
+                <input type="email" placeholder="Email" required>
+                <button type="submit">SUBMIT</button>
+            </form>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.pinterest.com" target="_blank" aria-label="Pinterest">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&copy; 2024 - All Rights Reserved - Flomic</p>
+    </div>
+
+</body>
+</html>
